@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(/images/bg_team.png) no-repeat;
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: tahoma;
+  background-size:cover;
+}
+nav{
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+  margin: 0 0 0 53%;
+  padding: 5px 10px;
+  transition: all 3;
+}
+
+.intro-title{
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(6, 104, 99);
+  background-color: rgba(44, 155, 163, 0.8);
+  margin-top: 3%;  
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;border-radius: 50px;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.btn:hover{
+  background-color: #000;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.box{
+  float:left;
+  width: 400px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-right: 0;
+  color: white;
+  font-family: 'Tahoma',sans-serif;
+}
+.box-img{
+  object-fit: cover;
+  border: 3px solid rgb(35, 209, 142);
+  padding: 5px;
+  border-radius: 40px;
+  border-style:dashed;
+  width: 150px;
+  height: 150px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 0px;
+  font-weight: 100;
+}
+.box h3{
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin:0;
+}
+.box h4{
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin:0;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin: 0;
+}
+.box h6{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin:0;
+}
+.box p{
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 5px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.fa-facebook:hover{
+  
+  color: #1877f2;
+  transition: all ease-in-out 250ms;
+}
+.fa-twitter:hover{
+  color:#1DA1F2;
+  transition: all ease-in-out 250ms;
+}
+.fa-instagram:hover{
+  color: #fb3958;
+  transition: all ease-in-out 250ms;
+}
