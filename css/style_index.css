@@ -10,7 +10,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(/images/bg_home.png) no-repeat;
+    background: url(/images/bg_home.PNG) no-repeat;
     overflow: hidden;
     font-family: tahoma;
 }
